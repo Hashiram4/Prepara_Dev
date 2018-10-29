@@ -1,0 +1,23 @@
+.table {font-size: 16pt; padding: 10px 0 20px 5px; background: linear-gradient(#cde7f8,#d5f0f9);}
+	.top {display: flex; text-align: center; border-bottom: 3px solid white;
+		   background: black; }
+		.top div {width: 45%; color: white; padding: 6px;}
+	.linha {display: flex; padding: 5px; color: white;}
+		.blue {background: #477baa;}
+		.lightblue {background: #5a9bd5;}
+			.nome {width: 40%; margin-top: 5px;}
+			.quantidade {width: 29% ; text-align: right; margin-top: 5px;}
+		.funcoes {width: 31%;}
+			.funcoes-inner {display: flex; margin-left: 25%;}
+				.editar {font-size: 16pt; padding: 6px; background: #ffc52f; border: none; 
+						color: #ffffff; box-shadow: 2px 2px 2px #2d5173; cursor: pointer;}
+				.editar:hover {background: #f9ad0a;}
+				.atalhos {margin: 5px 20%;}
+					.funcao {margin: 0 7px; background: none;}
+/*Responsividade*/
+@media screen and (max-width: 1715px) {.table {} .funcoes-inner {margin-left: 15%;} .editar {font-size: 14pt;}}
+@media screen and (max-width: 1450px) {.table {font-size: 14pt;}.top div {width: 44%;}.atalhos {margin: 5px 10%;}.editar {font-size: 12pt;}.atalhos button img {width: 20px; height: 20px;}}
+@media screen and (max-width: 980px) {.table {font-size: 12pt;}.top div {width: 43%;}.funcoes-inner {margin-left: 18%;}.editar {font-size: 10pt;} .atalhos button img {width: 10px; height: 10px;}
+@media screen and (max-width: 790px) {.table {font-size: 10pt;}.top div {width: 40%;}.nome {width:44%;}.funcoes {width:42%;}.funcoes-inner {margin-left: 30%;}}
+@media screen and (max-width: 650px) {.top div {width: 35%;}.nome {width:28%;} .funcoes {width:45%;}.funcoes-inner {margin-left: 20%;} .editar {padding:3px;}}
+@media screen and (max-width: 500px) {.top div {width: 25%;} .nome {width: 15%;} .funcoes{width:53%;}

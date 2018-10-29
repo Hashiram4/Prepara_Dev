@@ -1,0 +1,55 @@
+@font-face { font-family: Tahoma; src: url('fonts/Tahoma.ttf'); font-weight: normal;
+             font-style: normal;}
+*{ margin: 0; padding: 0; z-index: 1; font-family: Tahoma;}
+a {font-style: none; text-decoration: none;}
+button {box-shadow: none;border: none; cursor: pointer}
+#modelo {}
+	.conteudo { display: flex;}
+		.left_box { width: 15%; background: #1f3c64;}
+			.links {}
+				.links-inner {text-align: center;}
+					.links-inner p { font-size: 16pt; color: white; margin-top: 20px;}
+					.links-inner p button {border: none; background: #1f3c64;color: white;font-size: 16pt;}
+					.links-inner p button:hover {text-decoration: underline;}
+					.links-inner p a {color: white;}
+					.links-inner p a:hover {text-decoration: underline;}
+			.logo {}
+				.logo-inner {text-align: center; padding: 15px;}
+					.logo-inner img {width: 90%;}
+					.logo-inner div {display: none;}
+		.right_box { width: 85%; background: blue; border-bottom: 1px solid #bebfc4;}
+			.user_box {background: #fed700; padding: 15px; border-top: 1px outset #b9ab52;}
+				.user_box-inner {display: flex; justify-content: space-between; font-size: 16pt;}
+					.user {}
+						.user label {}
+					.exit {display: flex;}
+						.img {margin-top: -5px; margin-right: 5px;}
+						.exit p a {color: black;}
+			.local_box {background: white;border-top: 2px outset #b9ab52;border-bottom: 1px solid #bebfc4; 
+						font-size: 16pt; padding: 10px;}
+				.local_box div a {color: black;}	
+				.local_box div a:hover{text-decoration: underline;}
+			.conteudo_dinamico {background: linear-gradient(#cde7f8,#d5f0f9); background: url("../imagens/fundo.png"); background-size: 100% 100%;}
+	footer {}
+		.rodape { text-align: center; margin: 15px 0;}
+			.rodape p {font-size: 14pt;}
+			.rodape p a {color: black;}
+			.rodape p a:hover {text-decoration: underline;}
+/*Responsividade*/
+@media screen and (max-width: 1400px) {
+	.links-inner p {font-size: 14pt;} 
+	.links-inner p button{ font-size: 14pt;} 
+	.user_box-inner {font-size: 14pt;}
+	.local_box {font-size: 14pt;}
+	.img {margin-right: 3px;}
+	.rodape p {font-size: 12pt;}
+}
+@media screen and (max-width: 789px) {
+	.conteudo {flex-direction: column;}.topo:hover .links-inner {display:block;background:#5a9bd5;text-align:left;}
+	.right_box {width: 100%;}.left_box {width: 100%;}.links-inner {display: none;}
+	.links-inner p { font-size: 12pt; margin-top: 0; padding: 10px 0 10px 50px;}
+	.links-inner p:hover {background:#477baa;}.links-inner p:hover button{background:#477baa;}
+	.links-inner p button {font-size: 12pt;background:#5a9bd5;}.user_box-inner { font-size: 10pt;}.local_box {font-size: 10pt;}
+	.rodape p {font-size: 8pt;}.logo-inner img {display: none;}
+	.logo-inner div {display: block; margin-top: 5px; color: white; text-align: left;}
+}
