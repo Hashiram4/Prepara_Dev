@@ -1,0 +1,104 @@
+{
+	"unidades": 
+	[
+		{
+	    	"sigla": "SE",
+	      	"nome": "Sergipe",
+	      	"cidades": 
+	      	[
+	        	"Aracaju",
+				"Canindé de São Francisco",
+				"Capela",
+				"Estancia",
+				"Itabaiana",
+				"Itabaianinha",
+				"Lagarto",
+				"Nossa Senhora da Glória", 
+				"Nossa Senhora das Dores", 
+				"Nossa Senhora do Socorro", 
+				"Propriá",
+				"Simao Dias",
+				"Tobias Barreto"
+	      	]
+    	},
+    	{
+	    	"sigla": "ES",
+	      	"nome": "Espírito Santo",
+	      	"cidades": 
+	      	[
+	        	"Cariacica",
+				"Sao José do Calçado",
+				"Serra",
+				"Vila Velha"
+	      	]
+    	},
+    	{
+	    	"sigla": "RJ",
+	      	"nome": "Rio de Janeiro",
+	      	"cidades": 
+	      	[
+				"Angra dos Reis",
+				"Araruama",
+				"Barra Mansa",
+				"Bom Jesus do Itabapoana",
+				"Campos dos Goytacazes",
+				"Casimiro de Abreu",
+				"Duque de Caxias",
+				"Itaboraí",
+				"Itaguaí",
+				"Itaperuna",
+				"Macae",
+				"Mage",
+				"Maricá",
+				"Niterói",
+				"Nova Iguaçu",
+				"Petropolis",
+				"Quissamã",
+				"Rio Bonito",
+				"Rio das Ostras",
+				"Rio de Janeiro",
+				"Sao Gonçalo",
+				"Sao Pedro da Aldeia",
+				"Teresópolis",
+				"Tres Rios"
+	      	]
+    	},
+    	{
+	    	"sigla": "DF",
+	      	"nome": "Brasília",
+	      	"cidades": 
+	      	[
+	        	"Ceilândia",
+				"Taguatinga"
+	      	]
+    	},
+    	{
+	    	"sigla": "AL",
+	      	"nome": "Alagoas",
+	      	"cidades": 
+	      	[
+				"Arapiraca"
+	      	]
+    	},
+    	{
+	    	"sigla": "PB",
+	      	"nome": "Paraíba",
+	      	"cidades": 
+	      	[
+				"Campina Grande",
+				"Guarabira",
+				"Joao Pessoa",
+				"Mamanguape",
+				"Santa Rita"
+	      	]
+    	},
+    	{
+	    	"sigla": "RN",
+	      	"nome": "Rio Grande do Norte",
+	      	"cidades": 
+	      	[
+				"Mossoró"
+	      	]
+    	}
+    ]
+}

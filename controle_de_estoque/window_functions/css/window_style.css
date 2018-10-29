@@ -1,0 +1,32 @@
+.window_funcoes {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgba(0,0,0,0.7);
+	transition: all 1s;
+}
+.window_funcoes:target {display: block; opacity: 1; z-index: 10000;}
+	.window_funcoes-inner{width: 430px; position: absolute; top: 20%; left: 40%; bottom: auto;right: auto;
+						  box-shadow: 0px 0px 10px gray;}
+	.header_window {display:flex;justify-content:space-between;background:#5a9bd5;
+		color:white; border: 1px solid #4d6e8d;}
+		.title {font-size: 16pt; padding: 4px 10px;}
+		.fechar {text-shadow: 2px 0 #416e97;font-size: 20pt; color:white; background:#5a9bd5;
+				 padding: 0px 15px;}
+		.fechar:hover {background: red;}
+	.content {background: #dae3f4;border:1px solid #97a7b6; max-height: 600px; text-align: center; }
+		.content div p {text-align: left; margin-left: 40px; font-size: 14pt;margin-top: 10px;}
+		.input {width: 350px; padding: 10px; font-size: 14pt; margin: 10px 0 20px 0; border-radius: 10px; box-shadow: 0px 3px 5px gray; border: 1px solid gray;}
+		.btn {padding: 15px 40px; margin: 15px 0 30px 0; font-size: 12pt; box-shadow: 0 3px 10px gray ; border-radius: 4px 4px; color: white; background: #4b78cb;}
+		.btn:hover {background: #08298A;}
+		.espacamento {margin: 30px 0 20px 0; text-align: center; font-size: 14pt; font-weight: bolder;}
+/*Responsividade*/
+@media screen and (max-width: 1000px) {.window_funcoes-inner{left:30%;}}
+@media screen and (max-width: 789px) {.window_funcoes-inner{left:20%;}}
+@media screen and (max-width: 600px) {.window_funcoes-inner{left:10%;}}
+@media screen and (max-width: 450px) {.window_funcoes-inner{left:0%;}}
